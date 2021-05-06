@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+.jumbocarousel {
+  margin: 0;
+  background: linear-gradient(#FFFFFF, #D8261C);
+  min-height: 200px;
+}
+
+.jumboheader {
+  margin: 0;
+  background-color: #D8261C;
+  min-height: auto;
+  color: #feed0d;
+  font-family: "Lobster", cursive;
+  font-size: xx-small;
+}
+.Navbar {
+  background-color: #D8261C;
+  
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.navbar-toggle {
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+  }
+}
+
+.nav-link {
+  color: #feed0d;
+}
