@@ -1,26 +1,56 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import Header from '../Header/Header';
-import { Jumbotron, Container, Navbar, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { Jumbotron, Container } from 'reactstrap';
+import Toolbar from '../Toolbar/Toolbar';
+import SideDrawer from '../SideDrawer/SideDrawer';
+import Backdrop from '../Backdrop/Backdrop';
 import three from './three.jpg';
-import Navigation from '../Navbar/Navbar';
+import TierTwo from '../TierTwo/TierTwo';
+import TierThree from '../TierThree/TierThree';
+import TierFour from '../TierFour/TierFour'
 
-function App() {
-    
-  return (
-    <div className="App">
-      <Header />
-      <div>
-        <Jumbotron fluid className="jumbocarousel">
-          <Container fluid>
-          <img src={three} width="1000"/>
-          </Container>
-        </Jumbotron>
-        <Navigation />
-           
+
+class App extends Component{
+  state ={
+    sideDrawerOpen:false
+  }
+  
+  drawerToggleClickHandler = () => {
+    this.setState((prevState) => {
+      return {sideDrawerOpen: !prevState.sideDrawerOpen};
+    });
+  }; 
+
+  backdropClickHandler = () => {
+    this.setState({sideDrawerOpen: false});
+  }
+
+  render() {
+    let backdrop;
+
+    if (this.state.sideDrawerOpen) {
+        backdrop = <Backdrop click={this.backdropClickHandler} />
+    }
+    return (
+      <div className={{height: '100%'}}>
+        <Header />
+        <React.Fragment>
+          <Jumbotron fluid className="jumbocarousel">
+            <Container fluid>
+            <img className="picture" src={three} />
+            </Container>
+          </Jumbotron>
+          <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
+          <SideDrawer show={this.state.sideDrawerOpen} />
+          {backdrop}
+          <TierTwo />
+          <TierThree />
+          <TierFour />
+        </React.Fragment>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default App;

@@ -1,6 +1,26 @@
 .slogan {
-    background-color: #ec2626;
-    
-        
-      
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  font-family: "Lobster", cursive;
+  color: #feed0d;
+}
+
+.jumbocarousel {
+    margin: 0;
+    background: linear-gradient(#FFFFFF, #D8261C);
+    padding-bottom: 5px;    
+  }
+  
+.jumboheader {
+    margin: 0;
+    background-color: #D8261C;
+    min-height: auto;   
+  }
+
+  .headerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }

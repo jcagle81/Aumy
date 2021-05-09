@@ -1,10 +1,8 @@
 import React from "react";
-import headerimg from './headerimg.png';
-import './Header.css';
 import { Jumbotron, Container } from 'reactstrap';
 
 
-function Header() {
+function Footer() {
     return (
         <React.Fragment>
             <Jumbotron fluid className="jumboheader">
@@ -13,7 +11,7 @@ function Header() {
                 </Container>
             </Jumbotron>
     
-            <img className="headerimg" src={headerimg} />
+            
        
                                            
         </React.Fragment>
@@ -23,4 +21,4 @@ function Header() {
     );
 }
 
-export default Header;
+export default Footer;

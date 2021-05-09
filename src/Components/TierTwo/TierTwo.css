@@ -1,0 +1,51 @@
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.book {
+    display: flex;
+    justify-content: center;
+    margin-top: -1em;
+}
+
+.about-button {
+    font-size: 1em;
+    background-color: #D8261C;
+    color: #feed0d;
+    height: 2.5em;
+    width: 10em;
+    border-radius: 50px;
+}
+
+.school {
+    display: flex;
+    justify-content: space-evenly;
+       
+}
+
+.about-text {
+    width: 35vw;
+    font-size: 1.75em; 
+    
+}
+
+.school-front {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25em;
+    width: 40em;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tier_two-tron {
+    padding-bottom: 5em;
+}

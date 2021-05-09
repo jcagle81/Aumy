@@ -1,0 +1,69 @@
+.tier_three-tron {
+    margin: 0;
+    background: linear-gradient(#FFFFFF, #D8261C);
+    padding-bottom: 10em;    
+}
+
+.book {
+    height: 3em;
+}
+
+.course-overview {
+    display: flex;
+    justify-content: center;
+}
+
+.kindergarten {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.highschool {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-look {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h6 {
+    width: 25em;
+    margin-top: -1em;
+}
+
+.course-overview {
+    margin-top: -2em;
+    margin-bottom: 2em;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: solid white .15rem;
+    border-radius: 1.25em;
+    width: 18vw;
+    height: 21vh;
+    margin-top: -3em;
+    z-index: 1;
+    
+    
+}
+
+.primpic {
+    z-index: 3;
+}
