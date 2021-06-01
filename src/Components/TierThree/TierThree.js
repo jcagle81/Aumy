@@ -3,8 +3,9 @@ import { Jumbotron, Container } from 'reactstrap';
 import './TierThree.css';
 import bookicon from './bookicon.png';
 import kinder from './kinder.png';
-import primary from './primary.png'
-import highschool from './highschool.png'
+import primary from './primary.png';
+import highschool from './highschool.png';
+import { Link } from 'react-router-dom';
 
 
 
@@ -25,7 +26,7 @@ function TierThree() {
                     </div>
                     <div className="course-look">
                         <div className="kindergarten">
-                            <img className="primpic" src={kinder} />
+                        <Link to={'/Kinder'} className='kinderLink'><img className="primpic" src={kinder} /></Link>
                             <div className="box">
                                 <h5>ANH VĂN MẪU GIÁO</h5>
                                 <h6>
@@ -34,7 +35,7 @@ function TierThree() {
                             </div>
                         </div>
                         <div className="primary">
-                            <img className="primpic" src={primary} />
+                        <Link to={'/Junior'} className='a'><img className="primpic" src={primary} /></Link>
                             <div className="box">
                                 <h5>ANH VĂN THIẾU NHI</h5>
                                 <h6>
@@ -43,7 +44,7 @@ function TierThree() {
                             </div>
                         </div>
                         <div className="highschool">
-                            <img className="primpic" src={highschool} />
+                        <Link to={'/Senior'} className='a'><img className="primpic" src={highschool} /></Link>
                             <div className="box">
                                 <h5>ANH VĂN THIẾU NIÊN</h5>
                                 <h6>

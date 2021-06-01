@@ -2,6 +2,7 @@
     margin: 0;
     background: linear-gradient(#FFFFFF, #D8261C);
     padding-bottom: 10em;    
+    max-height: 25em;
 }
 
 .book {

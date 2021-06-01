@@ -1,0 +1,35 @@
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+       
+}
+
+.about-text {
+    width: 35vw;
+    font-size: 1.75em; 
+    
+}
+
+.ffpic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15em;
+    width: 28em;
+}
+
+.footer-tron {
+    color: #FFFFFF;
+    background-color: rgb(49, 48, 48);
+}
+
+.col {
+    display: flex;
+    width: 33%;
+}

@@ -1,0 +1,26 @@
+.schoolfront {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25em;
+    width: 40em;
+}
+
+.SchoolSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25em;
+    width: 40em;
+}
+
+.Teachers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25em;
+    width: 40em;
+}

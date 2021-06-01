@@ -3,6 +3,7 @@ import { Jumbotron, Container } from 'reactstrap';
 import './TierTwo.css';
 import schoolfront from './schoolfront.jpg';
 import BookIcon from './BookIcon.png';
+import { Link } from 'react-router-dom';
 
 
 
@@ -24,7 +25,7 @@ function TierTwo() {
                                 Các bạn học viên thân mến!
                                 -Là nhà tiên phong mang lại nền tảng Anh ngữ giáo dục định hướng với đội ngũ giáo viên hơn 20 năm kinh nghiệm trong lĩnh vực giáo dục và đào tạo Tiếng Anh. Chúng tôi luôn tâm niệm rằng học viên học tiếng Anh không chỉ là học một ngôn ngữ mới mà còn là được truyền động lực học tập phát triền bản thân. Học viên ở trung tâm dược hưởng thụ điều kiện môi trường học tập quốc tế.
                             </p>
-                            <button className="about-button">Xem thêm</button>
+                            <button className="about-button"><Link to={'/AboutUs'} className='a'>Xem thêm</Link></button>
                         </div>
                 
                     </div>

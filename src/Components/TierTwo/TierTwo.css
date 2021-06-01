@@ -1,12 +1,19 @@
 .title {
     display: flex;
     justify-content: center;
+    
 }
 
 .book {
     display: flex;
     justify-content: center;
     margin-top: -1em;
+}
+
+a:link,
+a:visited {
+    color: #feed0d;
+    text-decoration: none;
 }
 
 .about-button {
@@ -16,6 +23,7 @@
     height: 2.5em;
     width: 10em;
     border-radius: 50px;
+    
 }
 
 .school {
@@ -48,4 +56,5 @@
 
 .tier_two-tron {
     padding-bottom: 5em;
+    
 }

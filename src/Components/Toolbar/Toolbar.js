@@ -7,6 +7,7 @@ import phoneimg from './phoneimg.png';
 import visitus from './visitus.png';
 import messenger from './messenger.png';
 import zalo from './zalo.png';
+import { Link } from 'react-router-dom';
 
 const Toolbar = props => (
     <header className="toolbar">
@@ -16,13 +17,13 @@ const Toolbar = props => (
             </div>
             <div className="toolbar_navigation-items">
                 <ul>
-                    <li className><a href="/">Giới thiệu</a></li>
-                    <li className><a href="/">Thư viện ảnh</a></li>
-                    <li className><a href="/">Tin tức và sự kiện</a></li>
-                    <li className="logo"><a href="/"><img src={logo} height="75" width="75" alt="Au My Logo" /></a></li>
-                    <li className><a href="/"><img src={phoneimg} height="40" /></a></li>
-                    <li className><a href="/"><img src={visitus} height="35" /></a></li>
-                    <li className><a href="/"><img src={zalo} height="35" /></a><a href="/"><img src={messenger} height="35" /></a></li>
+                    <li className><Link to={'/AboutUs'}>Giới thiệu</Link></li>
+                    <li className><Link to={'/News'}>Thư viện ảnh</Link></li>
+                    <li className><Link to={'/Album'}>Tin tức và sự kiện</Link></li>
+                    <li className="logo"><Link to="/"><img src={logo} height="75" width="75" alt="Au My Logo" /></Link></li>
+                    <li className><Link to="/"><img src={phoneimg} height="40" /></Link></li>
+                    <li className><Link to="/"><img src={visitus} height="35" /></Link></li>
+                    <li className><Link to="/"><img src={zalo} height="35" /></Link><Link to="/"><img src={messenger} height="35" /></Link></li>
                 </ul>
             </div>
         </nav>
