@@ -18,10 +18,12 @@ import Album from '../Album/Album';
 import { Route } from 'react-router-dom';
 
 class App extends Component{
-  state ={
-    sideDrawerOpen:false
+  constructor(){
+    super()
+      this.state ={
+        sideDrawerOpen:false
+      }
   }
-  
   drawerToggleClickHandler = () => {
     this.setState((prevState) => {
       return {sideDrawerOpen: !prevState.sideDrawerOpen};
@@ -49,7 +51,7 @@ class App extends Component{
                 <TierOne /> 
                 <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
                 <SideDrawer show={this.state.sideDrawerOpen} />
-                {backdrop}
+                {this.state.sideDrawerOpen && <Backdrop click={this.backdropClickHandler} />}
                 <TierTwo />
                 <TierThree />
                 <TierFour />  
@@ -123,7 +125,9 @@ class App extends Component{
               </React.Fragment>
             )}
           />
+          
           <Footer />
+          
         </React.Fragment>
       </div>
     

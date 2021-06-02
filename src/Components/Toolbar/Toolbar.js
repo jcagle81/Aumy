@@ -22,7 +22,7 @@ const Toolbar = props => (
                     <li className><Link to={'/Album'}>Tin tức và sự kiện</Link></li>
                     <li className="logo"><Link to="/"><img src={logo} height="75" width="75" alt="Au My Logo" /></Link></li>
                     <li className><Link to="/"><img src={phoneimg} height="40" /></Link></li>
-                    <li className><Link to="/"><img src={visitus} height="35" /></Link></li>
+                    <li className><a href="https://www.google.com/maps/place/Coffee+Talk+(Cafe+Nhat+Nguyet)/@10.4071435,106.1249912,16z/data=!4m5!3m4!1s0x0:0x238b015a60f45795!8m2!3d10.4066375!4d106.1219591"><img src={visitus} height="35" /></a></li>
                     <li className><Link to="/"><img src={zalo} height="35" /></Link><Link to="/"><img src={messenger} height="35" /></Link></li>
                 </ul>
             </div>

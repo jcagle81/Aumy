@@ -5,7 +5,7 @@ import BookIcon from './BookIcon.png';
 import { Link } from 'react-router-dom';
 import classlearning from './classlearning.png';
 import outsidelearning from './outsidelearning.png';
-import ceremony from './cermony.png';
+import ceremony from './ceremony.png';
 import teachers from './teachers.png';
 
 
