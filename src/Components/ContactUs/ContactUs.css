@@ -1,5 +1,26 @@
 .name {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     
 }
+
+.formcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.messageinput {
+    width: 15em;
+    height: 7em;
+}
+
+.emailinput {
+    width: 15em;
+}
+
+.nameinput {
+    width: 15em;
+}
+

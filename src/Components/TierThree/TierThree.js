@@ -26,7 +26,7 @@ function TierThree() {
                     </div>
                     <div className="course-look">
                         <div className="kindergarten">
-                        <Link to={'/Kinder'} className='kinderLink'><img className="primpic" src={kinder} /></Link>
+                        <Link to={'/Kinder'} className='a'><img className="primpic" src={kinder} /></Link>
                             <div className="box">
                                 <h5>ANH VĂN MẪU GIÁO</h5>
                                 <h6>

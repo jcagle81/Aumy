@@ -1,0 +1,56 @@
+.AlbumList {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Albumtron {
+    margin: 0;
+    background: white;
+    padding-bottom: 3em;    
+    max-height: 25em;
+}
+
+.book {
+    display: flex;
+    justify-content: center;
+}
+
+.picturelist {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.classlearning {
+    display: flex;
+    flex-direction: center;
+    height: 15em;
+    width: 20em;
+}
+
+.outsidelearning {
+    display: flex;
+    flex-direction: center;
+    height: 15em;
+    width: 20em;
+}
+
+.ceremony {
+    display: flex;
+    flex-direction: center;
+    height: 15em;
+    width: 20em;
+}
+
+.teachers {
+    display: flex;
+    flex-direction: center;
+    height: 15em;
+    width: 20em;
+}
+
+.descripttext {
+    text-align: center;
+
+}
+

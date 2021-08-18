@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./ContactUs.css";
 
 const ContactForm = () => {
   const [status, setStatus] = useState("Submit");
@@ -23,20 +24,20 @@ const ContactForm = () => {
     alert(result.status);
   };
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
+    <form onSubmit={handleSubmit} className="formcontainer">
+      <div className="contentrow">
         <label className="name" htmlFor="name">Name:</label>
-        <input className="name" type="text" id="name" required />
+        <input className="nameinput" type="text" id="name" required />
       </div>
-      <div>
+      <div className="contentrow">
         <label className="name" htmlFor="email">Email:</label>
-        <input className="name" type="email" id="email" required />
+        <input className="emailinput" type="email" id="email" required />
       </div>
-      <div>
+      <div className="contentrow">
         <label className="name" htmlFor="message">Message:</label>
-        <textarea className="name" id="message" required />
+        <textarea className="messageinput" id="message" required />
       </div>
-      <button type="submit">{status}</button>
+      <button type="submitbutton">{status}</button>
     </form>
   );
 };

@@ -2,8 +2,11 @@
     width: 100%;
     background-color: #D8261C;
     height: 60px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 5;
     
-
 }
 
 .toolbar_navigation-items .logo {

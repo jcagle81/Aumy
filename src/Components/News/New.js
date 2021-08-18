@@ -28,19 +28,27 @@ function News() {
                     <div className="book">
                         <img className="book" src={BookIcon} />
                     </div>
-                    <div className="newsList">
-                    <img className="" src={one} />
-                    <img className="" src={two} />
-                    <img className="" src={three} />
-                    <img className="" src={four} />
-                    <img className="" src={five} />
-                    <img className="" src={six} />
-                    <img className="" src={seven} />
-                    <img className="" src={eight} />
-                    <img className="" src={nine} />
-                    <img className="" src={ten} />
-                    <img className="" src={eleven} />
-                    <img className="" src={twelve} />
+                        <div>
+                            <div className="picturespread">
+                                <img className="spread" src={one} />
+                                <img className="spread" src={two} />
+                                <img className="spread" src={three} />
+                            </div><br />
+                            <div className="picturespread">    
+                                <img className="spread" src={four} />
+                                <img className="spread" src={five} />
+                                <img className="spread" src={six} />
+                            </div><br />
+                            <div className="picturespread">  
+                                <img className="spread" src={seven} />
+                                <img className="spread" src={eight} />
+                                <img className="spread" src={nine} />
+                            </div> <br /> 
+                            <div className="picturespread">    
+                                <img className="spread" src={ten} />
+                                <img className="spread" src={eleven} />
+                                <img className="spread" src={twelve} />
+                            </div><br />
                     </div>
                                             
                 </Container>

@@ -1,0 +1,9 @@
+.spread {
+    height: 10em;
+    width: 15em;
+}
+
+.picturespread {
+    display: flex;
+    justify-content: space-evenly;
+}

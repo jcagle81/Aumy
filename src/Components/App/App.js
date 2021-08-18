@@ -48,7 +48,7 @@ class App extends Component{
             path='/'
             render={() =>(
               <React.Fragment>
-                <TierOne /> 
+                <TierOne />
                 <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
                 <SideDrawer show={this.state.sideDrawerOpen} />
                 {this.state.sideDrawerOpen && <Backdrop click={this.backdropClickHandler} />}

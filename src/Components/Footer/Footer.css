@@ -17,9 +17,7 @@
 
 .ffpic {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: center;
     height: 15em;
     width: 28em;
 }
@@ -29,7 +27,8 @@
     background-color: rgb(49, 48, 48);
 }
 
-.col {
+.container {
     display: flex;
-    width: 33%;
+    justify-content: space-around;
+    flex-direction: row;
 }

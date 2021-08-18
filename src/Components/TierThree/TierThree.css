@@ -1,8 +1,8 @@
 .tier_three-tron {
     margin: 0;
     background: linear-gradient(#FFFFFF, #D8261C);
-    padding-bottom: 10em;    
-    max-height: 25em;
+    padding-bottom: 7em;    
+    height: 40em;
 }
 
 .book {
@@ -60,11 +60,13 @@ h6 {
     width: 18vw;
     height: 21vh;
     margin-top: -3em;
-    z-index: 1;
-    
-    
+    z-index: 0;
 }
 
 .primpic {
+    z-index: 3;
+}
+
+.a {
     z-index: 3;
 }

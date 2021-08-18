@@ -1,0 +1,63 @@
+.schoolfront {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20em;
+    width: 35em;
+}
+
+.SchoolSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20em;
+    width: 35em;
+}
+
+.Teachers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20em;
+    width: 35em;
+}
+
+.tier_two-tron {
+    max-height: 79em;
+}
+
+.pictureside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Kindertextcontainer {
+
+}
+
+.kinderpictures {
+    display: grid;
+    grid-template-areas: "kinder1 kinder2"
+                         "kinder3 kinder4"
+                         "kinder6 kinder7"
+                         "kinder5 kinder8";
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-columns: 300px 300px;
+    padding: 3em;
+}
+
+.kinder1 {
+    
+}

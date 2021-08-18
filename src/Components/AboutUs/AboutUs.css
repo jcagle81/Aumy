@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 25em;
-    width: 40em;
+    height: 20em;
+    width: 35em;
 }
 
 .SchoolSide {
@@ -12,8 +12,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 25em;
-    width: 40em;
+    height: 20em;
+    width: 35em;
 }
 
 .Teachers {
@@ -21,6 +21,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 25em;
-    width: 40em;
+    height: 20em;
+    width: 35em;
+}
+
+.tier_two-tron {
+    max-height: 79em;
+}
+
+.pictureside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

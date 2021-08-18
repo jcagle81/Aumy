@@ -14,7 +14,7 @@ function Footer() {
         <div>
             <Jumbotron fluid className="footer-tron">
                 <Container className="footer-tron" fluid>
-                    
+                    <div className="container">
                             <div className="info">
                                 <div>
                                     <h1>THÔNG TIN LIÊN HỆ</h1>
@@ -42,7 +42,7 @@ function Footer() {
                                     <img className="ffpic info" src={ffpic} />
                                 </div>
                             </div>
-                          
+                    </div>  
                 </Container>
             </Jumbotron>
     
